@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: Arial;
+  text-align: center;
+  color: white;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.cell {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+}
+
