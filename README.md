@@ -160,25 +160,6 @@ http://localhost
 * Cloud migration (AWS EKS / GKE / AKS)
 
 ---
-## 📊 Project Outcomes & Evidence
-
-### Jenkins CI/CD Pipeline
-![Jenkins Pipeline](images/jenkins-pipeline.png)
-
-### SonarQube Quality Gate
-![SonarQube](images/sonarqube-quality-gate.png)
-
-### Trivy Vulnerability Scan
-![Trivy](images/trivy-scan.png)
-
-### Kubernetes Deployment
-![Kubernetes](images/kubernetes-pods.png)
-
-### OWASP ZAP Scan
-![OWASP ZAP](images/owasp-zap-scan.png)
-
-### Monitoring Dashboard
-![Grafana](images/grafana-dashboard.png)
 
 ## 🏁 Final Note
 
