@@ -85,7 +85,6 @@ Each stage acts as a **control point**. If security or quality fails, the pipeli
 | VM‑2      | Kubernetes Master Node |
 | VM‑3      | Kubernetes Worker Node |
 
-The setup mimics **real on‑prem / private‑cloud infrastructure** commonly used in enterprises.
 
 ---
 
@@ -161,13 +160,28 @@ http://localhost
 * Cloud migration (AWS EKS / GKE / AKS)
 
 ---
+## 📊 Project Outcomes & Evidence
+
+### Jenkins CI/CD Pipeline
+![Jenkins Pipeline](images/jenkins-pipeline.png)
+
+### SonarQube Quality Gate
+![SonarQube](images/sonarqube-quality-gate.png)
+
+### Trivy Vulnerability Scan
+![Trivy](images/trivy-scan.png)
+
+### Kubernetes Deployment
+![Kubernetes](images/kubernetes-pods.png)
+
+### OWASP ZAP Scan
+![OWASP ZAP](images/owasp-zap-scan.png)
+
+### Monitoring Dashboard
+![Grafana](images/grafana-dashboard.png)
 
 ## 🏁 Final Note
 
-This project reflects **real‑world DevSecOps practices**, not just tool usage. It focuses on **automation, security enforcement, and operational visibility**, making it suitable for **DevOps, DevSecOps, and Cloud Engineer roles**.
-
+This project demonstrates an enterprise-style DevSecOps approach by integrating security, automation, and observability into a cloud-native CI/CD pipeline. It reflects real-world practices used in modern DevOps and DevSecOps teams.
 ---
-
-⭐ If you find this project valuable, feel free to star the repository and explore the pipeline design.
-match this readme with my project description
 
